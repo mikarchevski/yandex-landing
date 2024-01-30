@@ -751,6 +751,8 @@
   overflow: hidden;
   background: #f54932;
   &__content {
+    display: flex;
+    align-items: center;
     color: #fff;
     text-align: right;
     font-size: 2.2em;
@@ -759,6 +761,9 @@
     line-height: 110%; /* 24.2px */
     text-transform: uppercase;
     padding: 18px 0;
+    &-marker{
+      padding: 0 5px;
+    }
   }
 }
 
