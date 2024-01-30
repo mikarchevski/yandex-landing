@@ -1,0 +1,14 @@
+.footer{
+    display: block;
+    position: relative;
+    background: #E9DED4;
+    &-text{
+        font-family: "Golos Text";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+opacity: .6;
+padding: 40px 0;
+    }
+}

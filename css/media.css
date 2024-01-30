@@ -1,0 +1,398 @@
+@media (max-width: 1366px) {
+  .top__city {
+    left: 0;
+    width: -webkit-fill-available;
+  }
+  .top__city:after {
+    bottom: 3px;
+    left: 56px;
+    height: 103%;
+  }
+}
+@media (max-width: 1310px) {
+  .support-tournir__event-picture {
+    width: 50%;
+    position: relative;
+  }
+  .support-tournir__event-picture-img {
+    width: 100%;
+    height: auto;
+  }
+  .support-tournir__event-about-list-item-question {
+    width: 235px;
+  }
+  .evolution__list {
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+  }
+  .evolution__list-item-03 {
+    grid-area: auto;
+  }
+  .evolution__list-item-07 {
+    grid-area: 4/1/5/3;
+  }
+}
+@media (max-width: 1024px) {
+  .top__circle {
+    width: 460px;
+    height: 460px;
+  }
+  .top__chess-figure-1 {
+    left: 100%;
+    bottom: 50%;
+  }
+  .top__chess-figure-1::after {
+    content: none;
+  }
+  .top__chess-figure-2 {
+    right: 12px;
+  }
+  .top__chess-figure-2::after {
+    content: none;
+  }
+  .support-tournir__wrap-desktop {
+    display: none;
+  }
+  .support-tournir__wrap-mobile {
+    display: block;
+  }
+  .support-tournir__picture {
+    padding: 26px 0 21px;
+    margin: 0 auto;
+  }
+  .support-tournir__event-wrap {
+    flex-direction: column;
+  }
+  .support-tournir__event-picture {
+    width: 530px;
+    height: auto;
+    top: unset;
+    left: unset;
+  }
+  .support-tournir__event-about-list-item-question {
+    width: 305px;
+  }
+  .evolution__list {
+    grid-template-columns: repeat(2, 365px);
+  }
+  .evolution__list-item-07:after {
+    bottom: -10px;
+    right: 3px;
+    width: 309px;
+    height: 181px;
+  }
+  .evolution__list-item-text {
+    width: 264px;
+    padding: 20px 5px 20px 20px;
+  }
+  .evolution__list-item-text-07 {
+    width: 334px;
+    padding: 20px 5px 20px 20px;
+  }
+}
+@media (max-width: 900px) {
+  .evolution__list:after {
+    bottom: 1px;
+    right: -15px;
+    width: 343px;
+    height: 27%;
+  }
+  .members__swiper-pagination {
+    top: unset;
+    bottom: -70px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 768px) {
+  .top__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__circle {
+    position: relative;
+  }
+  .top__city {
+    background-image: url("../img/city-768.png");
+    height: 350px;
+    background-size: cover;
+    width: -webkit-fill-available;
+    width: -moz-available;
+  }
+  .top__circle {
+    width: 297px;
+    height: 297px;
+    top: unset;
+    left: 8px;
+    bottom: 69px;
+  }
+  .top__chess-figure-1 {
+    width: 86px;
+    height: 155px;
+    left: 60%;
+    bottom: 4%;
+  }
+  .top__chess-figure-1:before {
+    background-image: url("../img/king-375.png");
+    left: -54%;
+    top: 17%;
+  }
+  .top__chess-figure-2 {
+    width: 101px;
+    height: 135px;
+    bottom: -17%;
+    right: 15%;
+  }
+  .top__chess-figure-2:before {
+    background-image: url("../img/knight-768.png");
+  }
+  .evolution__title {
+    width: auto;
+    font-size: 4.6em;
+    padding: 0 0 143px 0;
+  }
+  .evolution__list {
+    display: none;
+  }
+  .evolution__list-item {
+    display: block;
+    height: 400px;
+    padding-top: 44px;
+  }
+  .evolution__list-item-point {
+    display: flex;
+  }
+  .evolution__swiper {
+    display: block;
+  }
+}
+@media (max-width: 570px) {
+  .container {
+    padding: 0 20px;
+  }
+  .top {
+    padding: 90px 0 0;
+  }
+  .top__wrap {
+    padding-bottom: 290px;
+  }
+  .top__article-title {
+    font-size: 3.6em;
+    letter-spacing: 0.236px;
+    padding: 1px 0 0 0;
+  }
+  .top__article-title--center {
+    line-height: 114%;
+    padding: 0 5px;
+  }
+  .top__article-title--right {
+    padding: 0 3px;
+  }
+  .top__article-subtitle {
+    padding: 21px 0 30px;
+    text-align: left;
+  }
+  .top__article-buttons {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__article-buttons-support, .top__article-buttons-more {
+    width: 100%;
+    padding: 14px 0;
+  }
+  .top__circle {
+    position: absolute;
+    width: 297px;
+    height: 297px;
+    top: unset;
+    left: 8px;
+    bottom: 69px;
+  }
+  .top__chess-figure-1 {
+    left: 60%;
+    bottom: 21%;
+  }
+  .top__chess-figure-2 {
+    bottom: -2%;
+    right: 15%;
+  }
+  .marquee {
+    height: 38px;
+  }
+  .marquee__content {
+    padding: 7px 0;
+  }
+  .support-tournir {
+    padding: 47px 0;
+  }
+  .support-tournir__picture {
+    width: 100%;
+    padding: 26px 0 21px;
+  }
+  .support-tournir__article-howto {
+    font-size: 2.8em;
+  }
+  .support-tournir__event-wrap {
+    padding: 57px 0 0 0;
+  }
+  .support-tournir__event-picture {
+    width: 375px;
+    left: 0px;
+    top: -22px;
+  }
+  .support-tournir__event-article {
+    width: 100%;
+  }
+  .support-tournir__event-article-game {
+    font-size: 2.8em;
+  }
+  .support-tournir__event-about-list {
+    padding: 44px 0 27px 0;
+  }
+  .support-tournir__event-about-list-item {
+    flex-direction: column;
+  }
+  .support-tournir__event-about-list-item-price {
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .support-tournir__event-about-list-item-question {
+    border: none;
+    width: inherit;
+    padding: 15px 10px 15px 0;
+  }
+  .support-tournir__event-about-list-item-question-first {
+    padding: 0;
+  }
+  .support-tournir__event-about-list-item-question-last {
+    padding: 15px 0 0 0;
+  }
+  .support-tournir__event-about-list-item-answer {
+    padding: 0 0 13px;
+  }
+  .support-tournir__event-about-list-item-answer-first {
+    padding: 13px 0;
+  }
+  .support-tournir__event-about-list-item-answer-last {
+    padding: 13px 0;
+  }
+  .support-tournir__event-questions {
+    font-size: 1.8em;
+  }
+  .evolution {
+    padding: 0px 0 109px;
+  }
+  .evolution__title {
+    padding: 69px 0 149px;
+    font-size: 3.6em;
+  }
+  .evolution__title::after {
+    font-size: 0.5em;
+    position: relative;
+    top: 5px;
+    margin: 0;
+  }
+  .evolution__list-item {
+    height: 256px;
+  }
+  .evolution__list-item-num {
+    margin: 17px 0 0 19px;
+  }
+  .evolution__list-item-text {
+    width: 250px;
+    font-size: 1.8em;
+    padding: 18px 0 12px 17px;
+  }
+  .members {
+    padding: 0 0 148px 0;
+  }
+  .members__title {
+    font-size: 3.6em;
+  }
+  .members__swiper-person-list {
+    padding: 37px 0 0 0;
+  }
+  .members__swiper-person-list-item-img {
+    width: 244px;
+    height: 244px;
+  }
+  .members__swiper-person-list-item-img::before {
+    top: 17px;
+    left: 10px;
+    width: 224px;
+    height: 255px;
+    background-image: url("../img/slider-person-375.png");
+  }
+  .members__popup-form {
+    width: 300px;
+  }
+  .members__popup-form-name, .members__popup-form-titul, .members__popup-form-title {
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 375px) {
+  .top__city {
+    background-image: url("../img/city-375.png");
+    height: 248px;
+    left: 0;
+    bottom: -12px;
+  }
+  .top__city:after {
+    background-image: url("../img/path-375.png");
+    bottom: 0;
+    left: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .top__chess-figure-1 {
+    width: 86px;
+    height: 155px;
+    left: 29%;
+    bottom: 12%;
+  }
+  .top__chess-figure-1:before {
+    background-image: url("../img/king-375.png");
+    left: -54%;
+    top: 17%;
+  }
+  .top__chess-figure-1:after {
+    content: "";
+    background-image: url("../img/bishop-375.png");
+  }
+  .top__chess-figure-2 {
+    width: 101px;
+    height: 135px;
+    bottom: -22px;
+    right: 32%;
+  }
+  .top__chess-figure-2:before {
+    background-image: url("../img/knight-768.png");
+  }
+  .evolution__swiper-pagination-prev, .evolution__swiper-pagination-next {
+    width: 36px;
+    height: 36px;
+  }
+  .members__swiper-pagination-prev, .members__swiper-pagination-next {
+    width: 36px;
+    height: 36px;
+  }
+}
+@media (max-width: 374px) {
+  .support-tournir__event-picture {
+    width: 100%;
+  }
+  .evolution__title {
+    font-size: 3em;
+  }
+  .evolution__swiper:before {
+    left: -11px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
